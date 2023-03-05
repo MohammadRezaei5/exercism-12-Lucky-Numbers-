@@ -15,3 +15,16 @@ function luckyNumber(value) {
 
 // console.log(luckyNumber(1441));
 // console.log(luckyNumber(123));
+
+///---///
+
+function errorMessage(input) {
+  if (!input) {
+    return "Required field";
+  }
+  return Number(input) ? "" : "Must be a number besides 0";
+}
+
+// console.log(errorMessage("123"));
+// console.log(errorMessage(""));
+// console.log(errorMessage("abc"));
